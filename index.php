@@ -44,16 +44,16 @@ require 'includes/header.php';
     <div class="team-grid">
         <?php
         $members = [
-            ['Ebenezer Nana Annan', 'MS/ITE/25/0041', 'Project Lead', 'M1', 'coral'],
-            ['Okyere-Darko Addai', 'MS/ITE/25/0044', 'UI/UX Designer', 'M2', 'blue'],
-            ['Frank Akrasi Antwi', 'MS/ITE/25/0051', 'Backend Developer', 'M3', 'gold'],
-            ['Michael Essel', 'MS/ITE/25/0053', 'Database Engineer', 'M4', 'green'],
+            ['Ebenezer Nana Annan', 'MS/ITE/25/0041', 'Group Member', 'M1', 'coral'],
+            ['Okyere-Darko Addai', 'MS/ITE/25/0044', 'Group Member', 'M2', 'blue'],
+            ['Frank Akrasi Antwi', 'MS/ITE/25/0051', 'Group Member', 'M3', 'gold'],
+            ['Michael Essel', 'MS/ITE/25/0053', 'Group Member', 'M4', 'green'],
         ];
         // $members = [
-        //     ['Ebenezer Nana Annan', 'MS/ITE/25/0041', 'Project Lead', 'assets/images/members/member-1.jpg'],
-        //     ['Okyere-Darko Addai', 'MS/ITE/25/0044', 'UI/UX Designer', 'assets/images/members/member-2.jpg'],
-        //     ['Frank Akrasi Antwi', 'MS/ITE/25/0051', 'Backend Developer', 'assets/images/members/member-3.jpg'],
-        //     ['Michael Essel', 'MS/ITE/25/0053', 'Database Engineer', 'assets/images/members/member-4.jpg'],
+        //     ['Ebenezer Nana Annan', 'MS/ITE/25/0041', 'Group Member', 'assets/images/members/member-1.jpg'],
+        //     ['Okyere-Darko Addai', 'MS/ITE/25/0044', 'Group Member', 'assets/images/members/member-2.jpg'],
+        //     ['Frank Akrasi Antwi', 'MS/ITE/25/0051', 'Group Member', 'assets/images/members/member-3.jpg'],
+        //     ['Michael Essel', 'MS/ITE/25/0053', 'Group Member', 'assets/images/members/member-4.jpg'],
         // ];
         foreach ($members as $member):
         ?>
