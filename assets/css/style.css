@@ -771,6 +771,12 @@ input:focus,textarea:focus,select:focus {
   margin-top: 12px;
   font-size: .84rem;
 }
+.cancel-button {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
 .records-panel {
   background: white;
   border: 1px solid var(--line);
@@ -861,6 +867,9 @@ td small {
   padding: 0;
 }
 .actions button {
+  color: var(--blue);
+}
+.actions button[data-delete] {
   color: #c34432;
 }
 .empty-state {

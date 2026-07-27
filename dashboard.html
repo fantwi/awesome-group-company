@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Awesome Group records dashboard"><title>Records Dashboard | Awesome Group Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="dashboard">
+<header data-site-header></header><main id="dashboard-app">
+<section class="dashboard-hero"><div><span class="eyebrow">Company information system</span><h1 id="dashboard-greeting">Welcome.</h1><p>Add, retrieve, update, and delete company service records from one place.</p></div><div class="dashboard-count"><strong id="record-count">0</strong><span>Visible records</span></div></section>
+<section class="dashboard-layout">
+    <aside class="record-form-panel"><span class="eyebrow">Add or update record</span><h2 id="record-form-title">Create new record</h2><form id="record-form"><label>Department<input name="department" required placeholder="e.g. Technology"></label><label>Service name<input name="serviceName" required placeholder="e.g. Web Development"></label><label>Manager<input name="manager" required placeholder="Full name"></label><label>Contact email<input type="email" name="email" required placeholder="team@company.com"></label><label>Status<select name="status"><option>Active</option><option>Pending</option><option>Inactive</option></select></label><button class="button primary full" id="record-submit" type="submit">Add record →</button><button class="cancel-link cancel-button" id="cancel-edit" type="button" hidden>Cancel editing</button></form></aside>
+    <div class="records-panel"><div class="records-toolbar"><div><span class="eyebrow">Retrieve records</span><h2>Company services</h2></div><form class="search-form" id="search-form"><input name="search" placeholder="Search records..."><button type="submit">Retrieve record</button></form></div><div class="table-wrap"><table><thead><tr><th>ID</th><th>Department</th><th>Service</th><th>Manager</th><th>Status</th><th>Actions</th></tr></thead><tbody id="records-body"></tbody></table></div></div>
+</section>
+</main><footer data-site-footer></footer>
+</body></html>
+
