@@ -44,20 +44,27 @@ require 'includes/header.php';
     <div class="team-grid">
         <?php
         $members = [
-            ['Member One', 'STUDENT-ID-001', 'Project Lead', 'M1', 'coral'],
-            ['Member Two', 'STUDENT-ID-002', 'UI/UX Designer', 'M2', 'blue'],
-            ['Member Three', 'STUDENT-ID-003', 'Backend Developer', 'M3', 'gold'],
-            ['Member Four', 'STUDENT-ID-004', 'Database Engineer', 'M4', 'green'],
+            ['Ebenezer Nana Annan', 'MS/ITE/25/0041', 'Project Lead', 'M1', 'coral'],
+            ['Okyere-Darko Addai', 'MS/ITE/25/0044', 'UI/UX Designer', 'M2', 'blue'],
+            ['Frank Akrasi Antwi', 'MS/ITE/25/0051', 'Backend Developer', 'M3', 'gold'],
+            ['Michael Essel', 'MS/ITE/25/0053', 'Database Engineer', 'M4', 'green'],
         ];
+        // $members = [
+        //     ['Ebenezer Nana Annan', 'MS/ITE/25/0041', 'Project Lead', 'assets/images/members/member-1.jpg'],
+        //     ['Okyere-Darko Addai', 'MS/ITE/25/0044', 'UI/UX Designer', 'assets/images/members/member-2.jpg'],
+        //     ['Frank Akrasi Antwi', 'MS/ITE/25/0051', 'Backend Developer', 'assets/images/members/member-3.jpg'],
+        //     ['Michael Essel', 'MS/ITE/25/0053', 'Database Engineer', 'assets/images/members/member-4.jpg'],
+        // ];
         foreach ($members as $member):
         ?>
         <article class="team-card">
             <div class="avatar <?= e($member[4]) ?>"><span><?= e($member[3]) ?></span></div>
+             <!-- <div class="avatar"><img src="<?= e($member[3]) ?>" alt="Photograph of <?= e($member[0]) ?>"></div> -->
             <div><span class="member-role"><?= e($member[2]) ?></span><h3><?= e($member[0]) ?></h3><p><?= e($member[1]) ?></p></div>
+            <!-- <div><span class="member-role"><?= e($member[2]) ?></span><h3><?= e($member[0]) ?></h3><p><?= e($member[1]) ?></p></div> -->
         </article>
         <?php endforeach; ?>
     </div>
-    <p class="edit-note">Replace the placeholder names, IDs, and avatar areas in <code>index.php</code> with your group’s details and photographs.</p>
 </section>
 
 <section class="cta-strip">

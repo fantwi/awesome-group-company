@@ -21,7 +21,7 @@ require 'includes/header.php';
         <p>Whether you have a complete brief or just the start of an idea, we would love to hear from you.</p>
         <div class="contact-item"><span>@</span><div><strong>Email</strong><a href="mailto:hello@awesomegroup.test">hello@awesomegroup.test</a></div></div>
         <div class="contact-item"><span>☎</span><div><strong>Phone</strong><a href="tel:+233200000000">+233 20 000 0000</a></div></div>
-        <div class="contact-item"><span>⌖</span><div><strong>Office</strong><p>Accra, Ghana</p></div></div>
+        <div class="contact-item"><span>⌖</span><div><strong>Office</strong><p>Cape Coast, Ghana</p></div></div>
     </div>
     <form class="form-card" method="post">
         <?php if ($sent): ?><div class="success-box">Thank you! Your demonstration message has been received.</div><?php endif; ?>
